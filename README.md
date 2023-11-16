@@ -40,11 +40,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Landingspagina
-  <img src="">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Productpagina  
-  <img src="">
  
 </details>
 
