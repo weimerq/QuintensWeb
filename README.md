@@ -40,13 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Landingspagina
-  <img src="![IMG_8689](https://github.com/weimerq/QuintensWeb/assets/150670107/9fb32ef3-330e-49ed-b4e3-65d4b5434f49)
-" width="375px" alt="Sanrio website landingspagina">
+  <img src="">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Productpagina  
-  <img src="r![IMG_8692](https://github.com/weimerq/QuintensWeb/assets/150670107/427f956e-15f2-45f0-85c4-d9e23964b012)
-" width="375px" alt="Hangyodon plushie productpagina">
+  <img src="">
  
 </details>
 
