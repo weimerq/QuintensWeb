@@ -56,6 +56,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Bevindingen:
+  - Over het algemeen is de site erg toegangkelijk, de structuur is heel logisch.
+  - Sommige titels (voor links) zijn nog te vaag "Just for you" bijvoorbeeld zegt weinig, het is namelijk niet zoals een 'aanbevolen' pagina. Er staat altijd voor iedereen hetzelfde.
+  - Op mobiel overlappen er elementen die dit niet horen te doen, dit is verwarrend. Knoppen staan op headings
+  - De screenreader werkt goed, maar er worden ENORM veel divs gebruikt.
+  - Lists worden niet gebruikt.
+  - Images hebben sterke alts, soms kan er wel beter worden beschreven wat er precies op een product staat.
+  - Er spelen automatisch videos af, nou hebben deze geen audio en is er minimale beweging dus het is wat minder erg. Media kan niet gepauzeerd worden.
+  - Geen skip links.
+  - Geen buttons in html.
+  - Links naar nieuwe tabbladen worden niet zo beschreven.
+  - Er zijn wel focus states.
+  - Niet alle links zijn herkenbaar als links.
+  - Het hoofdmenu is deels links en deels forms, wat het verwarrend maakt. Het menu kan dus heel klein lijken als de gebruiker denkt dat dit uit alleen links zou bestaan. Maar de meerderheid is een form met links erin.
+  - De website heeft geen dark mode, geen optie om tekst te vergroten, geen hoog contrast modus. Er missen erg veel voorkeuropties.
+  - Weinig contrast in kleuren, zorgt voor zachte uitstraling maar is minder toegankelijk.
+
+
+Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed duidelijk. Het is te zien dat de makers hier om geven, maar er is zeker ruimte voor verbetering.
+
 </details>
 
 
