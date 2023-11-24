@@ -1,0 +1,14 @@
+header {
+ display: flex;
+ justify-content: space-between;
+}
+
+header img {
+    height: 5vh;
+}
+
+form {
+    display: flex;
+    justify-content: flex-start;
+    height: 5vh;
+}
