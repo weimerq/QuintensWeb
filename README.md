@@ -133,8 +133,9 @@ Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed dui
   | Quinten      
   - Moet een form om mee te zoeken in de header of er buiten?
   - Hoe maak ik dingen klikbaar zonder meer dan 1 html pagina? (# in href van link)
-  - Hoe spreek ik mijn gewenste images aan? Ze zitten allemaal boven een h3 dus mis kan ik daar wat mee.
+  - Hoe spreek ik mijn gewenste images aan? Ze zitten allemaal boven een h3 dus mis kan ik daar wat mee. (omdraaien h3 en images)
   - Marquee, hoe werkt het met screenreader en hoe maak ik drie verschillende berichtjes?
+  - Sections gebruiken (fireshot, grids oefenen)
   
   
   | Niels
