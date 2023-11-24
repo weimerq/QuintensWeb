@@ -12,7 +12,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
@@ -102,7 +102,7 @@ Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed dui
 
 ## Voortgang 1 (week 2)
 
-<details>
+<details open>
   <summary>
     Ik vind code nog steeds erg lastig en er onstaat vaak veel verwarring bij bepaalde elementen in html/css/js. Nu heb ik het grootste deel van mijn html staan van de eerste pagina en met flexbox heb ik de header een indeling gegeven. Ik heb de html constant lopen aanpassen en doe dat nogsteeds, moet de search bar form nou wel of niet in de header bv? Ik denk dat als ik me er goed toe zet het wel lukt, maar omdat ik het nog moeilijk vind is het lastig om mezelf aan het werk te zetten. Als het lukt is het wel erg leuk en daarvoor doe ik het. 
   </summary>
