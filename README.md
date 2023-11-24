@@ -103,10 +103,18 @@ Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed dui
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
+  <summary>
+    Ik vind code nog steeds erg lastig en er onstaat vaak veel verwarring bij bepaalde elementen in html/css/js. Nu heb ik het grootste deel van mijn html staan van de eerste pagina en met flexbox heb ik de header een indeling gegeven. Ik heb de html constant lopen aanpassen en doe dat nogsteeds, moet de search bar form nou wel of niet in de header bv? Ik denk dat als ik me er goed toe zet het wel lukt, maar omdat ik het nog moeilijk vind is het lastig om mezelf aan het werk te zetten. Als het lukt is het wel erg leuk en daarvoor doe ik het. 
+  </summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Flexbox gaat beter dan verwacht door het oefenen, vorig jaar snapte ik er helemaal niks maar nu gelukkig wel. Ik heb nu ook een beter beeld van coderen in zijn geheel, hoe het verbonden is etc. CSS selectoren snap ik maar bij mijn website vind ik het moeilijk om bv een aantal images aan te spreken die allemaal boven een h3 staan, maar volgensmij is hier een manier voor. Ik maak wel veel kleine foutjes die me tijd kosten en ik moeilijk in de code terugvind. Ik moet nu gewoon verder aan de slag want de moeilijkste delen daar ben ik nog niet aan begonnen, maar daar voor heb ik eerst een goede basis nodig. Nu is het nog een beetje rommelig maar met een paar veranderingen in CSS komt dat goed.
+  
+<img width="196" alt="Screenshot 2023-11-24 at 11 00 20" src="https://github.com/weimerq/QuintensWeb/assets/150670107/8bbda726-e6d1-40c5-95d4-e100e7734ad0">
+
+  
+
+  
 
 
   ### Agenda voor meeting
