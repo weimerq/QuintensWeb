@@ -102,7 +102,6 @@ Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed dui
 
 ## Voortgang 1 (week 2)
 
-<details open>
   <summary>
     Ik vind code nog steeds erg lastig en er onstaat vaak veel verwarring bij bepaalde elementen in html/css/js. Nu heb ik het grootste deel van mijn html staan van de eerste pagina en met flexbox heb ik de header een indeling gegeven. Ik heb de html constant lopen aanpassen en doe dat nogsteeds, moet de search bar form nou wel of niet in de header bv? Ik denk dat als ik me er goed toe zet het wel lukt, maar omdat ik het nog moeilijk vind is het lastig om mezelf aan het werk te zetten. Als het lukt is het wel erg leuk en daarvoor doe ik het. 
   </summary>
@@ -162,21 +161,38 @@ Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed dui
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
-  ### Agenda voor meeting
+  ### Agenda voor meetin
+  
   samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  
+  | Merle         
+  - Ik krijg met flexbox en grid mijn ‘li’ niet gecentreerd en op de plek waar ik hem wil, hoe kan ik dit oplossen?
+  - Wat is een mooie volgorde om mijn css in te schrijven? Sanne liet zien welke volgorde hij gebruikte, en hoe weet ik precies wat er onder welke categorie valt?
+  
+  
+  | Ahmadriza    
+  - in m’n 3e section beter grid of flex gebruiken (responsieve)
+  - ik wil m’n video automatisch laten afspelen
+  - Mijn nav ook zichtbaar houden tijdens scrollen hiervoor position fixed/absolute?
+  
+  | Quinten      
+  - Meer duidelijkheid over het inzetten van flexbox op bepaalde elemente
+  - De fonts van sanrio er in krijgen, zijn moeilijk te vinden
+  - De form over de hele breedte te laten spannen
+  - CSS goed ordenen
+  
+  | Niels
+  - Hoe ik de horizontale box met text die automatisch beweegt maak 
+  - Hoe ik de footer apart aanspreek zonder de code al te veel aan te passen.
+  -  Wanneer nou button en wanneer een link (precieze verschil)
+   - nth of type mag dat steeds?
 
 
   ### Verslag van meeting
