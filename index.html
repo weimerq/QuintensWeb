@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styleUNI.css">
+    <link rel="stylesheet" href="./styleP1.css">
     <title>Sanrio Landingpage</title>
 </head>
 <body>
 <header>
         <nav>
             <ul>
-                <li><a class="hamburger" href="#" aria-hidden="true"><img src="./images/burgericon.jpg" alt="burgermenuicon" /></a></li>
+             <li><a class="hamburger" href="#" aria-hidden="true"><img src="./images/burgericon.jpg" alt="burgermenuicon" /></a></li>
                 <li><a href="#" aria-label="open landingpage"><img src="./images/sanriologo.avif" alt="sanriologo"></a></li>
-                <li><a href="#" aria-label="login or create account"><img src="./images/loginicon.jpeg" alt="loginicon" /></a></li>
+            <li><a href="#" aria-label="login or create account"><img src="./images/loginicon.jpeg" alt="loginicon" /></a></li>
                 <li><a href="#" aria-label="open shopping cart"><img src="./images/bagicon.jpeg" alt="bagicon"></a></li>
             </ul>
+            <!-- Hier gewoon alt tekst voor als de images niet laden, de screenreader
+            skipt ze door het arialabel. Hamburger menu is hidden voor de screenreader want
+            dat moet gewoon als menu worden voorgelezen-->
+
             <form>
                 <input type="search" placeholder="What are you looking for?">
                 <img src="./images/searchicon.png" alt="searchicon">
@@ -23,7 +28,7 @@
             <ul class="menu">
                 <li><a href="#" aria-label="open page new arrivals">new</a></li>
                 <li><a href="#" aria-label="open page collaborations">collabs</a></li>
-                <li><a href="#" aria-label="open page characters">characters</a></li>
+                <li><a href="./index2.html" aria-label="open page characters">characters</a></li>
                 <li><a href="#" aria-label="open page apparel">apparel</a></li>
                 <li><a href="#" aria-label="open page bags and accessories">bags+</a></li>
                 <li><a href="#" aria-label="open page home goods">home</a></li>
@@ -33,8 +38,18 @@
                 <li><a href="#" aria-label="open page holiday">holiday 🎄</a></li>
                 <li><a href="#" aria-label="login or create account">my account</a></li>
             </ul> 
-        </nav>        
+        </nav>   
+
+        <!-- Class gebruikt voor javascript-->
+        
+        <!-- Lekker descriptive in de navigation voor screenreaders, ik heb duidelijk
+        gemaakt dat ze weg gaan van de pagina en een nieuwe openen. Ook heb ik
+        bij elke gecheckt waar je nou echt heen gaat. "Home" is bv niet echt de homepage
+        het is een plek waar je "home goods" kan halen. Dit moet duidelijk zijn in de screenreader-->
+
         <h1>Sanrio Landingpage</h1>
+
+        <!-- H1 moet! Onzichtbaar gemaakt in css-->
     </header>    
 
     <marquee>
@@ -50,6 +65,13 @@
            Free standard shipping on all US orders over $100!
         </p>
     </marquee>
+
+    <!-- De verboden marquee ingezet.. maar ik vond hem heel leuk. Geen alt
+    tekst voor de images hier, het is decoratie. -->
+
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee?retiredLocale=nl
+    https://www.w3schools.com/tags/att_script_src.asp-->
+
     
     <main>
 
@@ -63,10 +85,20 @@
             <section>
             <a href="./indexSanrio2.html" aria-label="open page choose your favorites">
                 Choose your faves 
-                <img src="./images/arrowicon.jpeg" alt="arrowicon">
+                <div>
+                    <img src="./images/arrowicon.jpeg" alt="arrowicon">
+                </div>
             </a>
             </section>
         </article>
+
+        <!-- Ik heb zoveel mogelijk sections en articles gebruikt omdat
+        ze wel iets betekenen ipv divs en spans. Maar later is er wel 1 divje te vinden-->
+
+        <!-- https://www.w3schools.com/html/html5_semantic_elements.asp -->
+
+        <!-- Veel detail in de alt tekst, belangrijk dat er goed word uitgelegd wat er te zien is
+        de plaatjes spreken het meest op deze website: gaat vooral om mooi en schattig-->
 
         <article>
             <h2>Sanrio T-shirt club</h2>
@@ -76,12 +108,17 @@
                 Join the club on Amazon and get 20% off your first tee with free shipping included. This month's design has Hello Kitty baking a sweet apple pie. Yummy!
             </p>
             <section>
-            <a href="#" aria-label="open amazon website Sanrio T-Shirt Club Subscription ">
+            <a href="#" aria-label="leave sanrio website and open amazon website to Sanrio T-Shirt Club Subscription ">
                 Join the club 
-                <img src="./images/arrowicon.jpeg" alt="arrowicon">
+                <div>
+                    <img src="./images/arrowicon.jpeg" alt="arrowicon">
+                </div>
             </a>
             </section>
         </article>
+
+        <!-- Hier ga je naar de Amazon website, dus dat heb ik duidelijk gezegd in de alt tekst.
+        Ik heb je gewaarschuwd!! -->
 
         <article>
             <h2>New arrivals</h2>
@@ -90,13 +127,18 @@
             <p>
                 Our latest drop with MVMT includes three different color palettes, each with a co-ordinating pair of sunnies and a watch. Each watch comes with a collectible Hello Kitty gift box, too!
             </p>
-            <section>
+        <section>
             <a href="#" aria-label="open page MVMT collection">
                 Shop MVMT
-                <img src="./images/arrowicon.jpeg" alt=" ">
+                <div>
+                    <img src="./images/arrowicon.jpeg" alt=" ">
+                </div>
             </a>
             </section>
         </article>
+
+        <!-- Een divje omdat ik de img anders niet goed kon aanspreken aangezien hij opgesloten
+        zit in een section-->
 
         <article>
             <h2>New from sonix</h2>
@@ -108,11 +150,13 @@
             <section>
             <a href="#" aria-label="open page sanrio x sonix collection">
                 Shop sonix
-                <img src="./images/arrowicon.jpeg" alt=" ">
+                <div>
+                    <img src="./images/arrowicon.jpeg" alt=" ">
+                </div>
             </a>
             </section>
         </article>
-
+        
         <article>
             <ul>
                 <li><a href="#" aria-label="open page hello kitty">Shop hello kitty</a></li>
@@ -144,29 +188,34 @@
             <h2>
                 Just for you
             </h2>
-        </article>
-        <article>
             <section>
-                <ul>
-                    <li><a href="#"><img src="./images/ltw1.jpeg">LittleTwinStars x Loungefly Carnival Crossbody Bag</a></li>
-                    <li><a><img></a></li>
-                    <li><a><img></a></li>
-                    <li><a><img></a></li>
-                    <li><a><img></a></li>
-                    <li><a><img></a></li>
-                    <li><a><img></a></li>
-                    <li><a><img></a></li>
-                    <li><a><img></a></li>
-                    <li><a><img></a></li>
-                    <li><a><img></a></li>
-                    <li><a><img></a></li>
-                    <li><a><img></a></li>
-                </ul>
+                <img src="./images/pompourinbackpack.avif" alt="yellow and pink mpompompurin with his family backpack">
             </section>
-        </article>    
+        </article>
+        <section class="topfooter">
 
+        <!-- Voor styling redenen zit het bovenkantje van de footer niet in de footer. 
+        Ik twijfelde zelf ook of het deel ervan was.-->
+        <h4>
+            Let's stay in touch! We'll let you know about the latest sales and new releases!
+        </h4>
+        <img src="./images/footerkitty.svg" alt=" ">
+
+        <!-- Decoratieee (geen alt tekst)-->
+    </section>
     </main>
     <footer>
+    <section>
+        <h2>World of Sanrio</h2>
+        <ul>
+            <li><a href="#" aria-label="open page store locator">Store Locator</a></li>
+            <li><a href="#" aria-label="open page character goodies">Character Goodies</a></li>
+            <li><a href="#" aria-label="open page supercute adventures">Supercute Adventures</a></li>
+            <li><a href="#" aria-label="open page hello kitty cafe">Hello Kitty Cafe</a></li>
+            <li><a href="#" aria-label="open page about sanrio">About Sanrio</a></li>
+        </ul>
+        <img src="./images/footersquad.webp" alt=" ">
+    </section>
     </footer>
     <script src="./scriptUNI.js"></script>
     <script src="./scriptP1.js"></script>
@@ -174,6 +223,13 @@
 </html>
 
 <!--
+    Personen:
+    - Sanne (uiteraard)
+    - Bahaa
+    - Merle
+    - Ahmadriza
+    - Sander
+
     Aan chatGPT gevraagd:
     - Vervang alle section elements in mijn html en css voor articles
     - Hoe ik de tekst in een marquee naast elkaar laat uitlijnen ipv onder elkaar
