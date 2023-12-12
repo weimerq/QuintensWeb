@@ -280,23 +280,34 @@ Niels
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/home.png" width="375px" alt="landingspage screenshot">
+  <img src="readme-images/hamburger.png" width="375px" alt="hamburger menu screenshot">
+  <img src="readme-images/characters.png" width="375px" alt="characters menu screenshot">
+  <img src="readme-images/footer.png" width="375px" alt="footer screenshot">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb flexbox beter in de hand gekregen (waar ik vooraf helemaal niks van snapte). Ik snap het maken van navigations beter, en het toepassen van sections en articles is duidelijker. Ik heb veel nieuwe elementen geleerd die ik nu ook kan inzetten (flex-direction, media-queries, aria-labels, etc. etc.). Ik ben blij met mijn hamburger menuutje.
+  
+  Mijn algemene kennis over hoe css, html en js in elkaar zit is ook erg verbeterd. Het klinkt niet allemaal meer als magische woorden en ik ben minder bang om code in te duiken. Zo kan ik ook meepraten en meelezen als andere mensen iets over code uitleggen of laten zien.
+  
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Het grootste is dat ik simpelweg mijn twee pagina's niet af heb gekregen, ik had in het midden van het vak iets meer door moeten zetten ook al lukte er toen heel veel niet. Dan was ik nu een stuk verder geweest.
+
+  JS vond ik heel lastig, ik wou nog een slider maken maar die heb ik vanwege de tijd achterwege gelaten. Mijn CSS is nog een beetje chaos, nou kan ik wel vinden wat ik heb geschreven maar voor anderen is het denk ik een mess. Sections snap ik beter maar het lukte erg vaak niet om dingen aan te spreken in css door alle sections, articles enz. dit was irritant. 
+
+  Ook ben ik vaak heeel lang bezig geweest met 1 ding wat ik graag af wou hebben, hamburger menu bv (nou was die wel essentieel), maar dit heeft me wel onnodige tijd gekost.
+  
 </details>
 
 
@@ -308,12 +319,38 @@ Niels
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
+ - https://www.w3schools.com/accessibility/accessibility_skip_links.php
+ - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee?retiredLocale=nl
+- https://www.w3schools.com/tags/att_script_src.asp
+- https://www.w3schools.com/html/html5_semantic_elements.asp
+- Personen:
+    - Sanne (uiteraard)
+    - Bahaa
+    - Merle
+    - Ahmadriza
+    - Sander
 
-  1. bron 1
-  2. bron 2
-  3. ...
+    Aan chatGPT gevraagd:
+    - Vervang alle section elements in mijn html en css voor articles
+    - Hoe ik de tekst in een marquee naast elkaar laat uitlijnen ipv onder elkaar
+
+    ChatGPT fail:
+    - Kon niet helpen met mijn hamburger menu en snapte mijn vragen niet helemaal (ik vond ze best duidelijk)
+  - https://codepen.io/weimerq/pen/WNPJJoX geforkt van Sanne
+  - https://www.youtube.com/watch?v=1iS0r238G4g&t=470s stomme video vind ik maar heb er wel iets 
+aan gehad
+  - https://www.w3schools.com/cssref/css3_pr_font-face_rule.php
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+  - https://www.w3schools.com/accessibility/accessibility_skip_links.php
+  - https://www.youtube.com/watch?v=K74l26pE4YA
+  - https://www.w3schools.com/css/css_positioning.asp
+  - ChatGPT gevraagd hoe ik <p>s en images naast elkaar zet in de marquee
+inline block als oplossing gekregen
+- https://www.youtube.com/watch?v=uuOXPWCh-6o
+- https://zellwk.com/blog/style-hover-focus-active-states/
+https://www.w3schools.com/cssref/sel_hover.php
+- https://www.w3schools.com/css/css_positioning.asp
+- https://www.w3schools.com/cssref/css3_pr_mediaquery.php */
+- Bron is bij veel css info van de les en dlo clips
 
 </details>
