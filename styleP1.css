@@ -1,7 +1,0 @@
-article:nth-of-type(6) ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    overflow: hidden;
-    gap: 0.25em;
-}
