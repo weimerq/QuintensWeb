@@ -148,10 +148,10 @@ Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed dui
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - De zoekform gaat in de header, met grid is dit goed responisve te maken later
+  - Ik maak het mezelf een stuk makkelijker door sections te gebruiken
+  - Images aanspreken via headings
+  - Merle heeft vooraf van het gesprek al wat van mijn vragen beantwoord, die staan in haakjes achter de vragen
 
 </details>
 
@@ -161,14 +161,15 @@ Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed dui
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb niet genoeg gedaan omdat ik niet zo wist waar ik moest beginnen, terwijl er echt wel dingen waren die ik best kon doen als ik er tijd in had gestopt, mijn website ziet er nog flink on officieel uit. Maar na deze voortgang ga ik hier hard aan werken. 
+  
 
 
-  ### Agenda voor meetin
+  ### Agenda voor meeting
   
   samen met je groepje opstellen
   
@@ -198,10 +199,9 @@ Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed dui
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Het is gelukt de zoekform er goed uit te laten zien
+  - Fonts heb ik gevonden
+  - Tips van Bahaa gekregen, ik had buttons gebruikt voor veel links dat moest veranderen. En articles gebruiken ipv sections voor de grote "blokken" op mijn site (img + h2 + h3 + p + a)
 
 </details>
 
@@ -215,7 +215,12 @@ Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed dui
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - Er zit 1 foutmelding in de html, die heeft te maken met de marquee tag dus die heb ik gelaten anders lukt het niet om de marquee goed te laten zien op de pagina, andere foutmeldingen heb ik gelijk opgelost
+  - Kopjes klopten niet qua ordening, h3 kwam voor h2, ik dacht dat dat voor de screenreader handiger was
+  - Decoratieve plaatjes hebben nog alt tekst
+  - Heb nog geen skip to main content link
+  - Heb geen dark/light of grote tekst mode
+  - De rest van de checklist is allemaal goedgekeurd, of ze zijn NVT (bv animaties heb ik niet)
 
 </details>
 
@@ -235,20 +240,33 @@ Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed dui
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+Quinten
+- Hoe zit het met een kleiner kopje boven een belangrijker kopje, is dit bv een h2 of h3 en welke moet eerst komen (css, html)
+- ⁠Hamburger menu, hoe verander ik het icoon
+- ⁠Moeten de dropdowns in het hamburgermenu werken?
+- ⁠Is het oke om layouts van lijstjes veel te veranderen voor bruikbaarhuid?
 
+Merle
+- Hoe kan ik mijn navigatie laten werken?
+- ⁠Wat is de beste manier om het responsief te maken?
+- ⁠Hoeveel moet je maken met JavaScript? Als je weinig hebt, wordt dat dan meegerekend in het eindcijfer?
 
+Ahmadriza 
+• Hoe mijn video pauzeren (voor toegankelijkheid)
+• de state visited link uitleggen 
+• De footer responsieve maken
+
+Niels
+- Mijn svg iconen vervormen steeds, hoe kan ik het formaat aanpassen want ze zijn beveiligd op de originele website?
+  - Hoe link je precies het lettertype in de juiste map, wel gedownload op laptop maar niet in juiste map.
+  - Hoe zit het met H2 en H3, de belangrijkste tekst is een hogere h, ook al komt deze later op de website pas?
+
+  
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Grid toegepast om de order van h2/h3/img in de goede volgorde te zetten
+  - Op codepen over hamburger menu vinden
 
 </details>
 
