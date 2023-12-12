@@ -46,7 +46,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen):
   Productpagina  
 
-   <img src="readme-images/IMG_9366 2.PNG" width="375px" alt="Landingspagina screenshot">
+   <img src="readme-images/IMG_9366 2.PNG" width="375px" alt="Productpagina screenshot">
  
 </details>
 
@@ -90,13 +90,13 @@ Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed dui
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/IMG_9365 2.PNG" width="375px" alt="Hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownmenu.jpg" width="375px" alt="Dynamisch deel menu">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdowncharacters.jpg" width="375px" alt="Dynamisch deel characters">
 
 </details>
 
@@ -238,7 +238,7 @@ Over het algemeen is de site goed toegangkelijk, vooral de structuur is goed dui
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Ik heb veel voortgang gemaakt en ik snap steeds meer hoe alles nou in elkaar zit, als bepaalde dingen lukken krijg ik ook zin om mijn eigen website te maken. Er zijn natuurlijk nog veel punten die ik lastig vind maar het gaat beter en beter. Het is fijn dat er iets begint te klikken.
 
 
   ### Agenda voor meeting
