@@ -12,30 +12,44 @@
     <header>
         <nav>
             <ul>
-                <li><a class="hamburger" href="#" aria-hidden="true"><img src="./images/burgericon.jpg" alt="burgermenuicon" /></a></li>
-                <li><a href="./index.html"><img src="./images/sanriologo.avif" alt="sanriologo"></a></li>
-                <li><a href="#" aria-hidden="true"><img src="./images/loginicon.jpeg" alt="loginicon" /></a></li>
-                <li><a href="#"><img src="./images/bagicon.jpeg" alt="bagicon"></a></li>
+             <li><a class="hamburger" href="#" aria-hidden="true"><img src="./images/burgericon.jpg" alt="burgermenuicon" /></a></li>
+                <li><a href="./index.html" aria-label="open landingpage"><img src="./images/sanriologo.avif" alt="sanriologo"></a></li>
+            <li><a href="#" aria-label="login or create account"><img src="./images/loginicon.jpeg" alt="loginicon" /></a></li>
+                <li><a href="#" aria-label="open shopping cart"><img src="./images/bagicon.jpeg" alt="bagicon"></a></li>
             </ul>
+            <!-- Hier gewoon alt tekst voor als de images niet laden, de screenreader
+            skipt ze door het arialabel. Hamburger menu is hidden voor de screenreader want
+            dat moet gewoon als menu worden voorgelezen-->
+
             <form>
                 <input type="search" placeholder="What are you looking for?">
                 <img src="./images/searchicon.png" alt="searchicon">
             </form>
             <ul class="menu">
-                <li><a href="#">new</a></li>
-                <li><a href="#">collabs</a></li>
-                <li><a href="#">characters</a></li>
-                <li><a href="#">apparel</a></li>
-                <li><a href="#">bags+</a></li>
-                <li><a href="#">home</a></li>
-                <li><a href="#">plush & toys</a></li>
-                <li><a href="#">stationery</a></li>
-                <li><a href="#">sale</a></li>
-                <li><a href="#">holiday 🎄</a></li>
-                <li><a href="#">my account</a></li>
+                <li><a href="#" aria-label="open page new arrivals">new</a></li>
+                <li><a href="#" aria-label="open page collaborations">collabs</a></li>
+                <li><a href="./index2.html" aria-label="open page characters">characters</a></li>
+                <li><a href="#" aria-label="open page apparel">apparel</a></li>
+                <li><a href="#" aria-label="open page bags and accessories">bags+</a></li>
+                <li><a href="#" aria-label="open page home goods">home</a></li>
+                <li><a href="#" aria-label="open page plush and toys">plush & toys</a></li>
+                <li><a href="#" aria-label="open page stationery">stationery</a></li>
+                <li><a href="#" aria-label="open page deals and promo">sale</a></li>
+                <li><a href="#" aria-label="open page holiday">holiday 🎄</a></li>
+                <li><a href="#" aria-label="login or create account">my account</a></li>
             </ul> 
-        </nav>        
-        <h1>Sanrio</h1>
+        </nav>   
+
+        <!-- Class gebruikt voor javascript-->
+        
+        <!-- Lekker descriptive in de navigation voor screenreaders, ik heb duidelijk
+        gemaakt dat ze weg gaan van de pagina en een nieuwe openen. Ook heb ik
+        bij elke gecheckt waar je nou echt heen gaat. "Home" is bv niet echt de homepage
+        het is een plek waar je "home goods" kan halen. Dit moet duidelijk zijn in de screenreader-->
+
+        <h1>Sanrio Landingpage</h1>
+
+        <!-- H1 moet! Onzichtbaar gemaakt in css-->
     </header>    
 
     <marquee>
@@ -50,13 +64,31 @@
            Free standard shipping on all US orders over $100!
         </p>
     </marquee>
+
+    <!-- De verboden marquee ingezet.. maar ik vond hem heel leuk. Geen alt
+    tekst voor de images hier, het is decoratie. -->
+
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee?retiredLocale=nl
+    https://www.w3schools.com/tags/att_script_src.asp-->
+
+    
     <main>
-    </main>
-    <section class="topfooter">
+        <h2>
+            Home / All / Hangyodon 8" classic plush
+        </h2>
+        <img src="./images/hangyodongoat.webp">
+    
+        </article>
+        <section class="topfooter">
+
+        <!-- Voor styling redenen zit het bovenkantje van de footer niet in de footer. 
+        Ik twijfelde zelf ook of het deel ervan was.-->
         <h4>
             Let's stay in touch! We'll let you know about the latest sales and new releases!
         </h4>
         <img src="./images/footerkitty.svg" alt=" ">
+
+        <!-- Decoratieee (geen alt tekst)-->
     </section>
     </main>
     <footer>
@@ -72,9 +104,9 @@
         <img src="./images/footersquad.webp" alt=" ">
     </section>
     </footer>
+    <script src="./script.js"></script>
+    <script src="./scriptP2.js"></script>
 </body>
-<script src="./script.js"></script>
-<script src="./scriptP2.js"></script>
 
 </html>
 
@@ -95,4 +127,8 @@
 
     ChatGPT fail:
     - Kon niet helpen met mijn hamburger menu en snapte mijn vragen niet helemaal (ik vond ze best duidelijk)
+-->
+
+<!-- 
+    
 -->

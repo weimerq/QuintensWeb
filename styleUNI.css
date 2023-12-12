@@ -48,6 +48,18 @@ body {
 /* Zodat de pagina helemaa nergens scrolbaar is, alleen x omdat we natuurlijk wel
 naar beneden willen scrollen */
 
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+/* skip content optie helemaal weghalen van de pagina 
+https://www.w3schools.com/accessibility/accessibility_skip_links.php */
+
 form input {
     font-family: Futura;
     padding: 1em;
