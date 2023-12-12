@@ -1,0 +1,581 @@
+@font-face {
+    font-family: FrankFurter;
+    src: url(./Frankfurter\ Std\ Regular.otf);
+}
+
+@font-face {
+    font-family: Futura;
+    src: url(./Futura\ Book\ font.ttf);
+}
+
+@font-face {
+    font-family: FuturaLight;
+    src: url(./futura\ light\ bt.ttf);
+}
+
+@font-face {
+    font-family: FuturaBold;
+    src: url(./futura\ medium\ bt.ttf);
+}
+
+@font-face {
+    font-family: VagRund;
+    src: url(./vag_rundschrift_d.ttf);
+}
+
+/* https://www.w3schools.com/cssref/css3_pr_font-face_rule.php*/
+
+:root {
+    --form-bg-color: #E9F2F5;
+    --marquee-bg-color: rgb(47, 175, 225); 
+    --footer-bg: rgb(255, 246, 225);
+    --top-footer-bg: rgb(180, 177, 241);
+    --button-bg: darkblue;
+
+}
+
+/* Er zijn eigenlijk geen kleuren naast zwart en wit die herhaaldelijk
+terugkomen, dus ik heb deze hierboven gekozen voor de custom properties
+ook al gebruik ik ze maar 1 keer */
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
+
+body {
+    overflow-x: hidden;
+    font-family: Futura;
+}
+
+/* Zodat de pagina helemaa nergens scrolbaar is, alleen x omdat we natuurlijk wel
+naar beneden willen scrollen */
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+/* skip content optie helemaal weghalen van de pagina 
+https://www.w3schools.com/accessibility/accessibility_skip_links.php */
+
+form input {
+    font-family: Futura;
+    padding: 1em;
+    width: 100vw;
+    background-color: var(--form-bg-color);
+    border: none;
+    padding-bottom: 2.5em;
+    border-bottom: grey;
+    outline: none;
+}
+
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    list-style: none;
+}
+
+/* Flex gebruikt voor de main navigatie, vond ik het meest logisch want we willen
+elementen verspreiden over de breedte van de pagina. Sommige dingen werkten niet mee
+met flex en heb ik stiekem wel een beetje margin, padding etc. gebruikt om het logo beter
+in het midden te krijgen */
+
+/* https://www.youtube.com/watch?v=K74l26pE4YA /
+
+
+body {
+    font-family: Futura;
+    margin: 0;
+    padding: 0;
+}
+
+/* Als een default margin en padding op 0 gezet, als ik ze wel wil maak ik ze zelf
+gewoon aan per element/deel */
+
+h2 {
+    font-family: FrankFurter;
+    font-size: 2em;
+    line-height: 1em;
+    margin: 2vh;
+}
+
+h2 p {
+    font-size: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+}
+
+h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+/* GEEN CAPS MET HTML!!!! */ 
+
+header {
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+nav li {
+    padding: 1vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+nav li:nth-of-type(2) img{
+    height: 5vh;
+    margin-left: 20vw;
+}
+
+nav li:nth-of-type(3) {
+    margin-left: auto;
+}
+
+nav img {
+    height: 5vh;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0em;
+    margin-bottom: 5vh;
+}
+
+/* Zoekbalkje en nav mag lekker blijven hangen dus position sticky gebruikt
+heel tevreden mee */
+
+/* https://www.w3schools.com/css/css_positioning.asp */
+
+h1 {
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 0
+}
+
+/* Er moet een h1 in de pagina zitten dus ik heb die gemaakt en hem dan onzichtbaar gemaakt 
+ik heb niet display none gebruikt want ik wou toch nog een beetje ruimte maken tussen de
+header en eerste img */
+
+form {
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+}
+
+/* Flex want over de hele breedte */
+
+article {
+    margin: 2.5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Alles in de articles moet gecentered en van boven naar beneden: justify content center en
+columns als direction ipv rows */
+
+marquee {
+    background-color: var(--marquee-bg-color);
+    padding: 0.75px; 
+    margin-bottom: 3vh;
+    border: 1px;
+    display: inline-block;
+}
+
+/* ChatGPT gevraagd hoe ik <p>s en images naast elkaar zet in de marquee
+inline block als oplossing gekregen */
+
+marquee p {
+    margin: 1vh;
+    font-size: 0.6em;
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 50vw;
+}
+
+marquee img {
+    padding: 0%;
+    height: 5vh;
+    width: 5vw;
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+a {
+    font-size: 0.75em;
+    text-align: center;
+    width: 50vw;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+section a {
+    border-color: black;
+    border: 0.075em;
+    border-style: solid;
+    padding: 0%;
+}
+
+p + a img { 
+    width: 10vw;
+}
+
+p a {
+    margin-top: 10vh;
+}
+
+article img {
+    margin-bottom: 5vh;
+}
+
+article a img {
+    width: 15%;
+    margin: 1vh;
+}
+
+article a {
+    line-height: 1em;
+    padding: 0.5em;
+    font-family: FrankFurter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article:nth-of-type(6) h3 {
+    font-family: FuturaBold;
+    font-size: 1.75em;
+}
+
+article:nth-of-type(6) ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+    gap: 0.25em;
+}
+
+/* https://www.youtube.com/watch?v=uuOXPWCh-6o */
+
+/* Hier heb ik grid gebruikt omdat de images van de characters duidelijk
+in twee columns van vier rijen zitten, hier heb ik lang mee gestoeid maar
+grid (+ nog wat andere adjustments) was de oplossing */
+
+article ul li {
+    max-width: 50vw;
+    object-fit: contain;
+}
+
+/* Zodat de list items niet buiten de pagina gaan stromen */
+
+article ul img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+article:nth-of-type(6) {
+    margin: 0;
+    margin-bottom: 5vh;
+}
+
+article:nth-of-type(6) a {
+    object-fit: contain;
+    margin: 0%;
+    padding: 0%;
+}
+
+article:nth-of-type(6) img {
+    padding: 0%;
+    width: 40vw;
+}
+
+article:nth-of-type(5) {
+    margin: 2.5vh;
+    margin-top: 10vh;
+}
+
+article:nth-of-type(5) ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border-right: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Weer grid omdat er een duidelijke layout is van 2 x 6 */
+
+article:nth-of-type(5) a {
+    font-size: 0.55em;
+    font-family: FuturaLight;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10em;
+    border-color: var(--button-bg);
+    background-color: var(--button-bg);
+    object-fit: contain;
+    margin-bottom: 3.5vh;
+    padding: 0.5em;
+    border-right: 2em;
+    line-height: 1.5em;
+}
+
+article:nth-of-type(5) li {
+    margin-right: 7.5vw;
+}
+
+article:nth-of-type(7) h2 {
+    font-size: 1.5em;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article:nth-of-type(5) a {
+    width: 37.5vw;
+    font-size: 0.75em;
+}
+
+h2 + p {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-bottom: 10vw;
+}
+
+ul:nth-of-type(2) {
+    font-family: FrankFurter;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    margin-top: 3.5vh;
+}
+
+ul:nth-of-type(2) li {
+    margin: 0;
+    margin-left: 5vw;
+}
+
+form img {
+    height: 2.93em;
+    border-bottom: grey;
+}
+
+.menu {
+    height: 0;
+    transform: translateX(-1000vw);
+}
+
+
+/* https://codepen.io/weimerq/pen/WNPJJoX geforkt van Sanne*/ 
+/* https://www.youtube.com/watch?v=1iS0r238G4g&t=470s stomme video maar wel
+wel iets van gebruikt*/
+
+/* Voor het hamburger menu, ik heb met -1000 de ul helemaal weg laten gaan, omdat
+er bij 100vw nog tekst zichtbaar was. Height is namelijk 0 en dan gaat alle tekst
+in de ul horizontaal naast elkaar. Ik had de height 0 gemaakt want op andere
+manieren lukten het niet. Ik heb naar de Codepen van Sanne gekeken alleen ik kon
+dat niet helemaal doorvertalen naar mijn burger menu, dus heb ik het op mijn eigen manier gedaan */
+
+.showmenu {
+   height: 100%;
+   transform: translateX(0);
+}
+
+/* Met 0 komt hij lekker weer op zijn eigen plek en de height mag weer helemaal
+volledig zijn */
+
+.closemenu {
+    opacity: 0%;
+}
+
+/* Dit vond ik het fijnst want met visibility hidden of display none nam hij nog ruimte op */
+
+article:nth-of-type(1) {
+    display: grid;
+    margin: 10vw;
+}
+
+/* Grid om dingen met order door elkaar te husselen, order is normaal 0 0 0. Door -1,
+1 etc. te doen plaats je ze dus automisch voor of na een ander. */
+
+article:nth-of-type(1) h3 {
+    order: -1;
+}
+
+article:nth-of-type(1) h3 + img {
+    width: 80vw;
+    order: -2;
+}
+
+article:nth-of-type(2) {
+    display: grid;
+    margin: 10vw;
+}
+
+article:nth-of-type(2) h3 {
+    order: -1;
+}
+
+article:nth-of-type(2) h3 + img {
+    width: 80vw;
+    order: -2;
+}
+
+article:nth-of-type(3) {
+    display: grid;
+    margin: 10vw;
+}
+
+article:nth-of-type(3) h3 {
+    order: -1;
+}
+
+article:nth-of-type(3) h3 + img {
+    width: 80vw;
+    order: -2;
+}
+
+article:nth-of-type(4) {
+    display: grid;
+    margin: 10vw;
+}
+
+article:nth-of-type(4) h3 {
+    order: -1;
+}
+
+article:nth-of-type(4) h3 + img {
+    width: 80vw;
+    order: -2;
+}
+
+header a:hover img {
+   transform: scale(1.2);
+   transition: ease-out 0.15s;
+}
+
+article:nth-of-type(6) a:hover img {
+    transform: scale(1.2);
+    rotate: 5deg;
+    overflow: hidden;
+    transition: ease-out 0.3s;
+ }
+
+ /* Rotate mag ik niet gebruiken zegt de W3C validation, maar als ik transform
+ rotate doe dan werkt hij niet. Dan gaat alleen de scale of de rotation werken. 
+ En ik wil per se allebei. De echte site heeft amper hover animaties dus
+ die ik heb ik zelf allemaal bedacht en toegevoegd */
+
+article a:hover img {
+    padding-left: 0.75em;
+    transition: ease-out 0.3s;
+}
+
+/* https://zellwk.com/blog/style-hover-focus-active-states/
+https://www.w3schools.com/cssref/sel_hover.php */
+
+
+article:nth-of-type(5) a:hover {
+    opacity: 70%;
+}
+
+h4 {
+    margin-top: -5vh;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    font-family: VagRund;
+    text-align: center;
+    background-color: var(--top-footer-bg);
+    padding: 5vw;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+} 
+
+.topfooter {
+    display: grid;
+}
+
+.topfooter img {
+    position: relative;
+    order: -2;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20vw;
+}
+
+/* position relative omdat het plaatje moet overlappen met het kopje eronder, 
+nu lijkt het door de witte achtergrond alsof ze (hello kitty) een hapje neemt */
+
+/* https://www.w3schools.com/css/css_positioning.asp */
+
+footer a {
+    margin: 10vw;
+    font-size: 1em;
+    font-family: Futura;
+    text-transform: none;
+    border: none;
+    margin: 2.5vw;
+}
+
+footer {
+    background-color: rgb(255, 246, 225);
+}
+
+footer ul {
+    margin: 2.5vw;
+}
+
+footer li {
+    margin: 5vw;
+}
+
+footer h2 {
+    padding-top: 10vh;
+    background-color: var(--footerbg);
+    margin: 7.5vw;
+}
+
+footer img {
+    margin-left: 50vw;
+}
+
+div {
+    width: 5em;
+}
+
+@media (min-width: 800px) {
+   body {
+    background-color: rgb(186, 255, 244);
+   }
+ }
+
+/* https://www.w3schools.com/cssref/css3_pr_mediaquery.php */
+
+/* Ik had super veel moeite en een beetje tijdsnood met het responsive maken,
+met flexbox kon ik geen aanpassingen aanbrengen en ik kon elementen niet goed aanspreken
+for some reason. Ik heb nu de achtergrond een andere kleur laten worden zodat ik wel een
+werkende media query heb. */
+
+/* Bron is bij veel css info van de les en dlo clips */
