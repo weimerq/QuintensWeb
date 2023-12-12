@@ -41,6 +41,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   Landingspagina
 
+   <img src="readme-images/IMG_9365 2" width="375px" alt="Landingspagina screenshot">
+
   #### Screenshot(s) van de tweede pagina (small screen):
   Productpagina  
  
